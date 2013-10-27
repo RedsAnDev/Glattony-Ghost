@@ -1,0 +1,128 @@
+img.logo{
+	height:50px!important;
+	width:auto;
+}
+figure.featured-image img{
+	max-height:100% !important;
+	width: 100% !important;
+}
+/*After Carousel*/
+a.aftercarousel{
+	position:absolute;
+	bottom:50px;
+}
+.img-not-overflow img{
+	width:100%;
+	height:auto;
+}
+/*Twitter stream*/
+.carousel-fade .item {
+	-webkit-transition: opacity 3s;
+	-moz-transition: opacity 3s;
+	-ms-transition: opacity 3s;
+	-o-transition: opacity 3s;
+	transition: opacity 3s;
+}
+.carousel-fade .active.left {
+	left:0;
+	opacity:0;
+	z-index:2;
+}
+.carousel-fade .next {
+	left:0;
+	opacity:1;
+	z-index:1;
+}
+/*Article addon*/
+article.fullpost{
+	margin-top:60px;
+}
+article img{
+	max-width: 100%;
+}
+/*Social Me*/
+ul.inline-childs{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+ul.inline-childs li{
+	display:inline;
+	float:left;
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+ul.inline-childs li a{
+	border:none;
+	height:40px !important;
+	width:40px !important;
+	display:block;
+}
+ul.inline-childs li a img{
+	max-width:50px;
+	max-height:50px;
+	min-width:50px;
+	min-height:50px;
+	border:none;
+}
+/*Social Icon*/
+.iconsocial{
+	border:none;
+	margin:2px;
+	padding:none;
+	height:40px;
+	width:40px;
+	background-repeat: none;
+	background-size: 40px;
+}
+.iconsocial-apple{
+	background-image: url(../images/apple.png);
+}
+.iconsocial-blogger{
+	background-image: url(../images/blogger.png);
+}
+.iconsocial-delicous{
+	background-image: url(../images/delicous.png);
+}
+.iconsocial-dribbble{
+	background-image: url(../images/dribbble.png);
+}
+.iconsocial-facebook{
+	background-image: url(../images/facebook.png);
+}
+.iconsocial-flickr{
+	background-image: url(../images/flickr.png);
+}
+.iconsocial-friendfeed{
+	background-image: url(../images/friendfeed.png);
+}
+.iconsocial-googleplus{
+	background-image: url(../images/googleplus.png);
+}
+.iconsocial-myspace{
+	background-image: url(../images/myspace.png);
+}
+.iconsocial-stumbleupon{
+	background-image: url(../images/stumbleupon.png);
+}
+.iconsocial-twitter{
+	background-image: url(../images/twitter.png);
+}
+.iconsocial-vimeo{
+	background-image: url(../images/vimeo.png);
+}
+.iconsocial-windows{
+	background-image: url(../images/windows.png);
+}
+.iconsocial-wordpress{
+	background-image: url(../images/wordpress.png);
+}
+.iconsocial-youtube{
+	background-image: url(../images/youtube.png);
+}
+/*Author*/
+img.avatar{
+	max-width:100px;
+	max-height:100px;
+}

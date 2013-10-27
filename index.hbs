@@ -1,0 +1,53 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+{{! The big featured header on the homepage, with the site logo and description }}
+
+{{! The main content area on the homepage }}
+  <div class="row">
+    <div class="col-xs-8">
+    <div class="jumbotron">
+      <h1>{{@blog.title}}</h1>
+      <p>{{@blog.description}}</p>
+    </div>  
+    </div>
+    <div class="col-xs-4">
+          {{> projectside}} 
+    </div>
+  </div>
+  <div class="row img-not-overflow">
+    <div class="col-xs-4">
+    <span class="label label-info">Mission</span>
+    <h3 class="featurette-heading">Why to do?</h3>
+    <img src="/assets/images/chibi_gluttony.png" class="img-rounded"/>
+    <p class="span">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-xs-6">
+      <span class="label label-info">You can call me</span>
+    <img class="img-polaroid" src=""/>
+      <h3 class="featurette-heading">I'm here for you, and I have a rights solution</h3>
+    <p class="span">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+    <img src="/assets/images/ipod_gluttony.jpg" class="img-rounded"/>
+    </div>
+    <div class="col-xs-2">
+      <span class="label label-info">Try alone!</span>
+      <h3 class="featurette-heading">If you get alone, you will never stop</h3>
+    <p class="span">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>

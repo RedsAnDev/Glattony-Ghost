@@ -1,0 +1,39 @@
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner" style="background:url(/assets/images/background-standard.jpg) no-repeat; background-size:100%;">
+        {{#foreach posts}}
+        {{#if @first}}
+            <div class="item active">
+        {{else}}
+            <div class="item">
+        {{/if}}
+            <figure class="featured-image">
+            {{! Maybe, for the future's features, every post's got its cover!!!!!}}
+    	{{#if image}}
+                <img src="/content/images/{{image}}" class="attachment-post-thumbnail" alt="">    
+        {{else}}
+                <img src="/assets/images/glass.png" class="attachment-post-thumbnail default-background" alt="">
+        {{/if}}
+            </figure>
+    			<div class="carousel-caption">
+                <img width="60px"
+                {{#if author.image}}
+                 src="{{{author.image}}}" 
+                {{else}}
+                src="{{blog.logo}}";
+            {{/if}}
+                class="img-circle avatar"/>
+    				<h3>{{{title}}}</h3>
+                    <span><i class="glyphicon glyphicon-user">{{{author}}}</i> &bull; <time class="glyphicon glyphicon-calendar" datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time></span>
+    				<p class="lead">{{{excerpt}}}&hellip;</p>
+                    <a href="{{{url}}}" class="glyphicon glyphicon-link btn btn-info">View details</a>
+    			</div>
+    		</div>            
+        {{/foreach}}    		
+    	</div>
+    	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+    	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>

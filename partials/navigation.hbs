@@ -1,0 +1,47 @@
+{{! Here is where you edit the static links displayed on every page.
+    Eventually, these links will be editable in the Ghost Admin Interface
+    and be inserted with the nav theme helper }}
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+          <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="{{@blog.url}}" class="brand"><img src="{{@blog.logo}}" class="logo"/></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="{{@blog.url}}#aftercarousel" class="glyphicon glyphicon-question-sign">&nbsp;What is it?</a></li>
+            <li><a href="{{@blog.url}}/about-me" class="glyphicon glyphicon-user">&nbsp;About Me</a></li>
+            <li><a href="{{@blog.url}}/contact" class="glyphicon glyphicon-book">&nbsp;Contact</a></li>
+            <li><a href="{{@blog.url}}/roadmap" class="glyphicon glyphicon-road">&nbsp;RoadMap</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle glyphicon glyphicon-share" href="#">&nbsp;Social Me! <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+              <li>
+              	<ul class="inline-childs">
+                <li><a href="#" class="iconsocial iconsocial-apple"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-blogger"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-delicous"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-dribbble"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-facebook"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-flickr"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-friendfeed"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-googleplus"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-myspace"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-stumbleupon"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-twitter"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-vimeo"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-windows"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-wordpress"></a></li>
+                <li><a href="#" class="iconsocial iconsocial-youtube"></a></li>
+                </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="{{@blog.url}}/rss" class="glyphicon glyphicon-bookmark">&nbsp;RSS</a></li>
+          </ul>          
+        </div><!--/.navbar-collapse -->
+    </div>
