@@ -2,6 +2,9 @@
 
 A simple way to start with ghost, this amazing cms, with a simple template. With bootstrap 3 integrates, many features and a little pieces of "override", every page can be amazing. It's good for every ghost-lover.
 
+#Releases
+## 1#
+[Pre-release](https://github.com/MasterTheBest/Glattony-Ghost/releases)
 # it's me!
 
 author: Andrea Rossi
