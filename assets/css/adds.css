@@ -40,6 +40,10 @@ article.fullpost{
 article img{
 	max-width: 100%;
 }
+/*Footer ARticle*/
+footer.post-footer{
+	clear:both;
+}
 /*Social Me*/
 ul.inline-childs{
 	list-style: none;
@@ -125,4 +129,9 @@ ul.inline-childs li a img{
 img.avatar{
 	max-width:100px;
 	max-height:100px;
+}
+/*Testimonial*/
+img.avatar64{
+	width:64px;
+	height:64px;
 }
