@@ -5,7 +5,7 @@ v.0.1
 ### Gits 
 [Link](http://masterthebest.github.io/Glattony-Ghost/)
 #### Author
-[@MasterTheBest](https://twitter.com/MasterTheBest)
+[@MasterTheBest](https://twitter.com/MasterTheBest)<br>
 [Mail](info at andrearossi dot eu)
 
 
